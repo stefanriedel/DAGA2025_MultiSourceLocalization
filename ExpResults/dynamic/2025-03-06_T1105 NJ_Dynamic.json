@@ -1,0 +1,1442 @@
+{
+  "Experiment": "Localization Experiment.",
+  "SubjectInformation": {
+    "Subject": "NJ_Dynamic",
+    "Age": 21,
+    "Gender": "male"
+  },
+  "StartTime": "6 Mar 2025 11:05:57",
+  "EndTime": "6 Mar 2025 11:13:04",
+  "Results": {
+    "PresentedOrderOfParts": [
+      2,
+      0,
+      1
+    ],
+    "Parts": [
+      {
+        "PresentedOrderOfTrials": [
+          11,
+          2,
+          9,
+          4,
+          5,
+          8,
+          3,
+          6,
+          1,
+          10,
+          7,
+          0
+        ],
+        "Trials": [
+          {
+            "TrialName": "1LS_BB",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 6.435933299999999
+          },
+          {
+            "TrialName": "2LS_15DEG_BB",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 8.635350299999999
+          },
+          {
+            "TrialName": "2LS_30DEG_BB",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 5.916612799999999
+          },
+          {
+            "TrialName": "2LS_45DEG_BB",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 5.4575849
+          },
+          {
+            "TrialName": "2LS_60DEG_BB",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 18.7662689
+          },
+          {
+            "TrialName": "2LS_90DEG_BB",
+            "Ratings": [
+              50.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 6.4453767
+          },
+          {
+            "TrialName": "3LS_15DEG_BB",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 7.649609399999999
+          },
+          {
+            "TrialName": "3LS_30DEG_BB",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 8.875416399999999
+          },
+          {
+            "TrialName": "3LS_45DEG_BB",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 23.4981075
+          },
+          {
+            "TrialName": "3LS_60DEG_BB",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 8.2168779
+          },
+          {
+            "TrialName": "3LS_90DEG_BB",
+            "Ratings": [
+              50.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 11.8080057
+          },
+          {
+            "TrialName": "13LS_90DEG_BB",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 13.3061657
+          }
+        ]
+      },
+      {
+        "PresentedOrderOfTrials": [
+          10,
+          1,
+          2,
+          4,
+          3,
+          11,
+          6,
+          0,
+          7,
+          5,
+          8,
+          9
+        ],
+        "Trials": [
+          {
+            "TrialName": "1LS_LP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 8.7193741
+          },
+          {
+            "TrialName": "2LS_15DEG_LP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 6.6282574
+          },
+          {
+            "TrialName": "2LS_30DEG_LP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 8.478745699999999
+          },
+          {
+            "TrialName": "2LS_45DEG_LP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 7.7697916
+          },
+          {
+            "TrialName": "2LS_60DEG_LP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 9.987810699999999
+          },
+          {
+            "TrialName": "2LS_90DEG_LP",
+            "Ratings": [
+              50.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 12.5225239
+          },
+          {
+            "TrialName": "3LS_15DEG_LP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 7.196288399999999
+          },
+          {
+            "TrialName": "3LS_30DEG_LP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 12.1141643
+          },
+          {
+            "TrialName": "3LS_45DEG_LP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 15.9573238
+          },
+          {
+            "TrialName": "3LS_60DEG_LP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 11.8597771
+          },
+          {
+            "TrialName": "3LS_90DEG_LP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 19.8382867
+          },
+          {
+            "TrialName": "13LS_90DEG_LP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 13.7013717
+          }
+        ]
+      },
+      {
+        "PresentedOrderOfTrials": [
+          8,
+          3,
+          9,
+          1,
+          11,
+          7,
+          10,
+          6,
+          4,
+          0,
+          2,
+          5
+        ],
+        "Trials": [
+          {
+            "TrialName": "1LS_HP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 3.3137419
+          },
+          {
+            "TrialName": "2LS_15DEG_HP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 6.1382693
+          },
+          {
+            "TrialName": "2LS_30DEG_HP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 6.476666
+          },
+          {
+            "TrialName": "2LS_45DEG_HP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 10.100817
+          },
+          {
+            "TrialName": "2LS_60DEG_HP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 9.527016999999999
+          },
+          {
+            "TrialName": "2LS_90DEG_HP",
+            "Ratings": [
+              50.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 9.797477299999999
+          },
+          {
+            "TrialName": "3LS_15DEG_HP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 10.9894646
+          },
+          {
+            "TrialName": "3LS_30DEG_HP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 11.2639991
+          },
+          {
+            "TrialName": "3LS_45DEG_HP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 42.4081121
+          },
+          {
+            "TrialName": "3LS_60DEG_HP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 11.294845
+          },
+          {
+            "TrialName": "3LS_90DEG_HP",
+            "Ratings": [
+              50.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 9.117430499999999
+          },
+          {
+            "TrialName": "13LS_90DEG_HP",
+            "Ratings": [
+              50.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "Scale": {
+              "Min": 0.0,
+              "Max": 100.0,
+              "StepSize": 1.0,
+              "DefaultValue": 50.0,
+              "Labels": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            "PresentedOrderOfStimuli": [
+              0
+            ],
+            "ElapsedTimeInSeconds": 16.2401005
+          }
+        ]
+      }
+    ]
+  },
+  "MushraAppVersion": "0.1.3"
+}
