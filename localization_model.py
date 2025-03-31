@@ -15,7 +15,7 @@ random_seed = 10 # To reproduce model results of paper, define fixed random seed
 root_dir = dirname(__file__)
 utility_dir = pjoin(root_dir, 'Utility')
 
-# ~10 ms blocksize @ fs = 48 kHz with 50% overlapping Hann-windows, gives ~5 ms effective resolution
+# ~10 ms blocksize @ fs = 48 kHz with 50% overlap and rectangular window
 blocksize = 512
 hopsize = int(blocksize / 2)
 fs = 48000
@@ -123,7 +123,8 @@ for rotation, rot_idx in zip(head_rotations, range(num_rotations)):
             y_L += signal.fftconvolve(audio_buffer, hrir_l_2D[idx, :])
             y_R += signal.fftconvolve(audio_buffer, hrir_r_2D[idx, :])
 
-        IC, ITD, ILD, P_L, P_R = compute_auditory_cues_timevariant(y_L, y_R, gammatone_mag_win, fs, blocksize, hopsize=hopsize, num_blocks=num_blocks)
+        IC, ITD, ILD, P_L, P_R = compute_auditory_cues_timevariant(y_L, y_R, gammatone_mag_win, fs, blocksize, 
+                                                                   hopsize=hopsize, num_blocks=num_blocks)
                 
         # Interaural time differences (ITDs)
         p_itd = np.ones((num_directions, num_bands, num_blocks))
@@ -175,7 +176,7 @@ for rotation, rot_idx in zip(head_rotations, range(num_rotations)):
         high_band = np.where(f_c >= 18000)[0][0]
         eps = 1e-6
 
-        for block in range(1, num_blocks):
+        for block in range(num_blocks):
             SpecGrad_L[:,block], SpecGrad_R[:,block] = compute_block_gradients(P_X_L=P_L[block,:], P_X_R=P_R[block,:])
 
             Sim_Func_L[:,block], Sim_Func_R[:,block] = compute_similarity_function(SpecGrad_L[:,block], SpecGrad_R[:,block], 
