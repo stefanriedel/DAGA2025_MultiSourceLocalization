@@ -9,6 +9,9 @@ from Utility.normal import normal
 from Utility.scaled_sigmoid import scaled_sigmoid
 from Utility.symmetrizeCircularHRTF import symmetrizeCircularHRIR
 
+# This script runs the localization models to generate probability maps, 
+# which are plotted against exp. data in evaluateExperimentResultsAndModels.py
+
 random_seed = 10 # To reproduce model results of paper, define fixed random seed
 
 root_dir = dirname(__file__)
