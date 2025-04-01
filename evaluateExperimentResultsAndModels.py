@@ -112,6 +112,11 @@ LEV_model = np.zeros((len(title_list), conditions_to_plot.size))
 LEV_data = np.zeros((len(title_list), conditions_to_plot.size))
 
 def LEV(p):
+    """
+    Computes the LEV model based on a discrete probability distribution.
+    p: Array representing discrete probability distribution.
+    Returns a value in [0,1].
+    """
     return 1 - (np.max(p) - np.mean(p))
 
 def total_variation_distance(p, q):
@@ -240,7 +245,7 @@ for idx in range(6):
                 LEV_model[idx,ax_idx] = LEV(p)
 
     axs[0].set_title(title_list[idx])
-    plt.savefig('./Figures/' + savename_list[idx] + '.eps', bbox_inches='tight', dpi=300)
+    plt.savefig('./Figures/' + savename_list[idx] + '.png', bbox_inches='tight', dpi=300)
 
 lp_data = np.concatenate((LEV_data[1,:],LEV_data[4,:]))
 lp_model = np.concatenate((LEV_model[1,:],LEV_model[4,:]))

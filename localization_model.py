@@ -1,14 +1,13 @@
 import numpy as np
+import scipy.signal as signal
 from Utility.auditory_cues import compute_auditory_cues_stationary, compute_auditory_cues_timevariant
 from Utility.noise_psd import pink_noise
 from os.path import dirname, join as pjoin
-import scipy.signal as signal
 from Utility.compute_block_gradients import compute_block_gradients
 from Utility.compute_similarity_function import compute_similarity_function
 from Utility.normal import normal
 from Utility.scaled_sigmoid import scaled_sigmoid
 from Utility.symmetrizeCircularHRTF import symmetrizeCircularHRIR
-import scipy.signal as signal 
 
 random_seed = 10 # To reproduce model results of paper, define fixed random seed
 
@@ -49,6 +48,7 @@ f_c = f_c[::8]
 head_rotations = np.array([-15,0,15])
 num_rotations = head_rotations.size
 
+# Define angular resolution of localization templates
 angular_res = 15
 angular_range = 105 + 15
 azi_angles = np.arange(-angular_range,angular_range+angular_res,angular_res)
