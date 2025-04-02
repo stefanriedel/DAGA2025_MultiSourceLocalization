@@ -19,8 +19,8 @@ def compute_similarity_function(StimulusGradient_L, StimulusGradient_R, Mem_Grad
 
     # Classical variant according to Baumgartner model
     for d in range(num_directions):
-        DeltaSpecGrad_L[d] = np.mean(np.abs(MemoryGradient_L[b1:,d] - StimulusGradient_L[b1:])) 
-        DeltaSpecGrad_R[d] = np.mean(np.abs(MemoryGradient_R[b1:,d] - StimulusGradient_R[b1:])) 
+        DeltaSpecGrad_L[d] = np.mean(np.abs(MemoryGradient_L[b1:b2,d] - StimulusGradient_L[b1:b2])) 
+        DeltaSpecGrad_R[d] = np.mean(np.abs(MemoryGradient_R[b1:b2,d] - StimulusGradient_R[b1:b2])) 
     Gamma = 6
     S = 0.5
     Sim_Func_L = 1 - (1 + np.exp(-Gamma * (DeltaSpecGrad_L - S)))**-1

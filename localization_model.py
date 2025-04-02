@@ -55,6 +55,7 @@ num_rotations = head_rotations.size
 angular_res = 15
 angular_range = 105 + 15
 azi_angles = np.arange(-angular_range,angular_range+angular_res,angular_res)
+result_idcs = np.arange(np.where(azi_angles == -105)[0][0], np.where(azi_angles == 105)[0][0] + 1)
 num_directions = azi_angles.size
 
 ITD_templates = np.zeros((num_bands, azi_angles.size))
@@ -99,11 +100,14 @@ target_idcs = [[0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],
 
 
 num_conditions = len(target_idcs)
-result_idcs = np.arange(np.where(azi_angles == -105)[0][0], np.where(azi_angles == 105)[0][0] + 1)
 
 all_p_itd = np.zeros((num_conditions, num_directions, num_rotations))
 all_p_ild = np.zeros((num_conditions, num_directions, num_rotations))
 all_p_spec = np.zeros((num_conditions, num_directions, num_rotations))
+
+p_itd_full_data = np.zeros((num_rotations, num_conditions, num_directions, num_bands, num_blocks))
+p_ild_full_data = np.zeros((num_rotations, num_conditions, num_directions, num_bands, num_blocks))
+p_sc_full_data = np.zeros((num_rotations, num_conditions, num_directions, num_blocks))
 
 for rotation, rot_idx in zip(head_rotations, range(num_rotations)):
     print('Calculating Rotation: ' + str(rotation))
@@ -173,7 +177,7 @@ for rotation, rot_idx in zip(head_rotations, range(num_rotations)):
         prob_spec_cues_l = np.zeros((num_directions, num_blocks))
         prob_spec_cues_r = np.zeros((num_directions, num_blocks))
 
-        avg_p_speccues = np.zeros((num_directions, num_blocks))
+        p_speccues = np.zeros((num_directions, num_blocks))
 
         low_band = np.where(f_c >= 3200)[0][0] 
         high_band = np.where(f_c >= 18000)[0][0]
@@ -189,16 +193,36 @@ for rotation, rot_idx in zip(head_rotations, range(num_rotations)):
             prob_spec_cues_l[:,block] = Sim_Func_L[:,block] / (np.sum(Sim_Func_L[:,block]) + eps)         
             prob_spec_cues_r[:,block] = Sim_Func_R[:,block] / (np.sum(Sim_Func_R[:,block]) + eps)
 
-            avg_p_speccues[:,block] = (prob_spec_cues_l[:,block] + prob_spec_cues_r[:,block])
-            avg_p_speccues[:,block] /= np.sum(avg_p_speccues[:,block] + eps)
+            p_speccues[:,block] = (prob_spec_cues_l[:,block] + prob_spec_cues_r[:,block])
+            p_speccues[:,block] /= np.sum(p_speccues[:,block] + eps)
 
-        avg_p_speccues = np.mean(avg_p_speccues, axis=-1)
+        avg_p_speccues = np.mean(p_speccues, axis=-1)
         rot_avg_p_speccues = np.roll(avg_p_speccues, shift=int(rotation/angular_res))
         all_p_spec[cond_idx, :, rot_idx] = rot_avg_p_speccues
+
+        p_itd_full_data[rot_idx, cond_idx, ...] = p_itd
+        p_ild_full_data[rot_idx, cond_idx, ...] = p_ild
+        p_sc_full_data[rot_idx, cond_idx, ...] = p_speccues
+
+
+p_itd_dict = {'p_itd_full_data': p_itd_full_data[:,:,result_idcs,low_band_itd:high_band_itd,:], 
+              'f_c': f_c[low_band_itd:high_band_itd], 'fs': fs, 'blocksize': blocksize, 'hopsize': hopsize}
+p_ild_dict = {'p_ild_full_data': p_ild_full_data[:,:,result_idcs,low_band_ild:high_band_ild,:], 
+              'f_c': f_c[low_band_ild:high_band_ild], 'fs': fs, 'blocksize': blocksize, 'hopsize': hopsize}
+p_sc_dict = {'p_sc_full_data': p_sc_full_data[:,:,result_idcs,:]
+             , 'fs': fs, 'blocksize': blocksize, 'hopsize': hopsize}
+
+np.save('./ModelOutput/p_itd_dict', arr=p_itd_dict, allow_pickle=True)
+np.save('./ModelOutput/p_ild_dict', arr=p_ild_dict, allow_pickle=True)
+np.save('./ModelOutput/p_sc_dict', arr=p_sc_dict, allow_pickle=True)
 
 np.save('./ModelOutput/all_p_itd', arr=all_p_itd[:,result_idcs,:], allow_pickle=True)
 np.save('./ModelOutput/all_p_ild', arr=all_p_ild[:,result_idcs,:], allow_pickle=True)
 np.save('./ModelOutput/all_p_spec', arr=all_p_spec[:,result_idcs,:], allow_pickle=True)
+
+
+
+
 
 
 
