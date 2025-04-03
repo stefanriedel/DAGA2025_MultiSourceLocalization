@@ -11,6 +11,6 @@ For reference, here are the probability maps for a single pink-noise source at 4
 <img src="/Figures/P_ITD_45DEG.png" alt="drawing" width="250"/> <img src="/Figures/P_ILD_45DEG.png" alt="drawing" width="250"/> <img src="/Figures/P_SC_45DEG.png" alt="drawing" width="250"/>
 
 A diffuse scene with 13 active noise sources spanning 90 to -90 degrees azimuth results in a rather uniform distribution of events for the ITD and SC model, while the ILD model indicates again a widened, frontal auditory event:
-<img src="/Figures/P_ITD_90_to-90DEG.png" alt="drawing" width="250"/> <img src="/Figures/P_ILD_90_to-90DEG.png" alt="drawing" width="250"/> <img src="/Figures/P_SC_90_to-90DEG.png" alt="drawing" width="250"/>
+<img src="/Figures/P_ITD_90_to_-90DEG.png" alt="drawing" width="250"/> <img src="/Figures/P_ILD_90_to_-90DEG.png" alt="drawing" width="250"/> <img src="/Figures/P_SC_90_to_-90DEG.png" alt="drawing" width="250"/>
 
 
